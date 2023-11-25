@@ -1,10 +1,10 @@
 const app = require("./app");
 const dotenv = require("dotenv");
-const conncetDatabase = require("./config/database");
+const conncetDatabase = require("./backend/config/database");
 const Cloudinary = require("cloudinary");
 
 //DOT ENV
-dotenv.config({ path: "backend/config/config.env" });
+dotenv.config({ path: "./backend/config/config.env" });
 
 //Database Connection
 conncetDatabase();
